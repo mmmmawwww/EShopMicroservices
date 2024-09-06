@@ -1,6 +1,5 @@
 ﻿using Discount.Grpc.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Discount.Grpc.Data;
 
@@ -8,7 +7,8 @@ public class DiscountContext : DbContext
 {
     public DbSet<Coupon> Coupons { get; set; } = default!;
 
-    public DiscountContext(DbContextOptions options) : base(options)
+    public DiscountContext(DbContextOptions<DiscountContext> options)
+       : base(options)
     {
     }
 
