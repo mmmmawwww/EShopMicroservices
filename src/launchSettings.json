@@ -5,7 +5,15 @@
       "commandVersion": "1.0",
       "serviceActions": {
         "catalog.api": "StartDebugging",
-        "basket.api": "StartDebugging"
+        "basket.api": "StartDebugging",
+<<<<<<< HEAD
+        "discount.grpc": "StartDebugging",
+        "ordering.api": "StartDebugging",
+        "yarpapigateway": "StartDebugging",
+        "shopping.web": "StartDebugging"
+=======
+        "discount.grpc": "StartDebugging"
+>>>>>>> e49b0e9d1963daeb47e9be21dcb2cf954a79ba90
       }
     }
   }

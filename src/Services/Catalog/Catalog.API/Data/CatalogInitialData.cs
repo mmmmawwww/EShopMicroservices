@@ -82,4 +82,5 @@ public class CatalogInitialData : IInitialData
                     Category = new List<string> { "Camera" }
                 }
             };
+
 }
